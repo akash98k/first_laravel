@@ -13,7 +13,7 @@
     </div>
     @include('admin.layout.customizerLink')
     @include('admin.layout.commonFooter')
-    @stack('custom-script')
+    @stack('custome-script')
 </body>
 
 </html>

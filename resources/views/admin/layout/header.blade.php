@@ -276,8 +276,7 @@
                 <a class="dropdown-item" href="general-settings.html"><i class="me-2"
                         data-feather="settings"></i>Settings</a>
                 <hr class="m-0">
-                <a class="dropdown-item logout pb-0" href="signin.html"><img
-                        src="assets/img/icons/log-out.svg" class="me-2" alt="img">Logout</a>
+                <a class="dropdown-item logout pb-0" href="{{ route('login') }}""><img src="assets/img/icons/log-out.svg" class="me-2" alt="img">Logout</a>
             </div>
         </div>
     </li>
@@ -291,7 +290,7 @@
     <div class="dropdown-menu dropdown-menu-right">
         <a class="dropdown-item" href="profile.html">My Profile</a>
         <a class="dropdown-item" href="general-settings.html">Settings</a>
-        <a class="dropdown-item" href="signin.html">Logout</a>
+        <a class="dropdown-item" href="{{ route('logout') }}">Logouti</a>
     </div>
 </div>
 <!-- /Mobile Menu -->
